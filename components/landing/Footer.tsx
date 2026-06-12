@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import StellarLogo from './StellarLogo'
 
 const links = [
@@ -26,13 +27,13 @@ export default function Footer() {
         </div>
         <div className="flex flex-wrap gap-5">
           {links.map(([label, href]) => (
-            <a
+            <Link
               key={label}
               href={href}
               className="text-sm text-muted-foreground transition hover:text-foreground"
             >
               {label}
-            </a>
+            </Link>
           ))}
         </div>
       </div>
