@@ -12,7 +12,7 @@ export default function UseCases() {
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <SectionIntro
           eyebrow="Use cases"
-          title="Blueprints for real treasury work."
+          title="Use cases for real treasury workflows."
         >
           Smart Treasury is designed for teams, protocols, marketplaces, payment
           operators, and tokenization platforms that need safer, repeatable

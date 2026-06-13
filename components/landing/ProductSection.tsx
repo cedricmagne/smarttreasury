@@ -13,11 +13,11 @@ export default function ProductSection() {
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <SectionIntro
           eyebrow="Product"
-          title="Move treasury operations from informal approvals to verifiable controls."
+          title="Move treasury operations from manual approvals to programmable controls."
         >
           Smart Treasury combines Soroban smart contracts, SAC asset support,
           wallet-based signing, and audit-friendly events to make treasury
-          execution safer and easier to operate.
+          workflows more secure, controlled, and easier to operate.
         </SectionIntro>
         <div className="mt-16 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {whatItDoes.map(([title, text], index) => (

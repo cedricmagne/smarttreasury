@@ -39,9 +39,9 @@ export default function EarlyAccess() {
             by default.
           </h2>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Smart Treasury brings this model to Stellar by combining wallet
-            access, policy enforcement, scheduled execution, and recovery
-            safeguards in one treasury account experience.
+            Smart Treasury brings this model to Stellar through programmable
+            accounts that combine wallet access, treasury rules, scheduled
+            execution, and recovery safeguards.
           </p>
           <p className="mt-6 text-sm leading-7 text-muted-foreground">
             Designed as a non-custodial treasury-control system: Smart Treasury

@@ -20,7 +20,7 @@ export default function WorkflowSection() {
         >
           Users connect with a Stellar wallet. Smart Treasury validates
           authority, routes actions through policy, intent, and recovery
-          controls, then emits events for monitoring and audit views.
+          controls, and records events for monitoring and audit views.
         </SectionIntro>
         <div className="mt-16 rounded-[2rem] border border-border bg-card p-5 shadow-sm sm:p-8">
           <div className="grid gap-4 lg:grid-cols-6">

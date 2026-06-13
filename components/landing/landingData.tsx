@@ -27,7 +27,7 @@ export const proofPoints = [
 export const whatItDoes = [
   [
     'Smart treasury account',
-    'A programmable treasury account that enforces policy before payment execution.'
+    'A programmable treasury account that enforces treasury rules before payment execution.'
   ],
   [
     'Signer roles and thresholds',
@@ -39,7 +39,7 @@ export const whatItDoes = [
   ],
   [
     'Scheduled payments',
-    'Store bounded treasury intents and prevent replayed child executions.'
+    'Schedule recurring payments with predefined amounts, recipients, and execution windows.'
   ],
   [
     'Recovery controls',
@@ -47,7 +47,7 @@ export const whatItDoes = [
   ],
   [
     'Audit trail',
-    'Emit security-significant events for validation, policy updates, scheduled execution, and recovery.'
+    'Track validation, policy updates, scheduled execution, and recovery events for audit-friendly treasury operations.'
   ]
 ]
 
@@ -65,7 +65,7 @@ export const coreFeatures: FeatureTuple[] = [
   [
     CalendarClock,
     'Scheduled treasury operations',
-    'Create bounded scheduled payment intents and use child execution IDs to prevent replay.'
+    'Schedule recurring payments with predefined amounts, recipients, and execution windows.'
   ],
   [
     LockKeyhole,
@@ -88,7 +88,7 @@ export const useCases: UseCaseTuple[] = [
   [
     Send,
     'Stablecoin vendor and payroll treasury',
-    'Replace single-key treasury operations with policy-controlled vendor and contributor payments.',
+    'Replace single-key payments with approved rules for vendors, contributors, and payroll.',
     [
       'Approved recipient lists',
       'Per-asset transfer limits',

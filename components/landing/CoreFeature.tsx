@@ -15,7 +15,7 @@ export default function CoreFeatures() {
             Core features
           </p>
           <h2 className="mt-4 font-heading text-3xl font-bold tracking-[-0.02em] text-background sm:text-5xl">
-            Services built for controlled fund movement.
+            Built for controlled treasury workflows.
           </h2>
           <p className="mt-5 text-base leading-8 text-background/70 sm:text-lg">
             Smart Treasury services include policy-controlled payments, weighted

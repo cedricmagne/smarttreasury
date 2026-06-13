@@ -30,8 +30,8 @@ export default function Hero() {
           Programmable treasury accounts on Stellar
         </h1>
         <p className="mt-7 max-w-2xl text-lg leading-8 text-muted-foreground">
-          Smart Treasury helps teams control payments with onchain policy,
-          wallet approvals, scheduled execution, and recovery safeguards.
+          Smart Treasury helps teams automate payments, approvals, and treasury
+          workflows under predefined onchain rules.
         </p>
         <div className="mt-9 flex flex-col gap-3 sm:flex-row">
           <Link
