@@ -18,7 +18,7 @@ export default function StellarSection() {
           eyebrow="Stellar integration"
           title="Built for Stellar treasury operations."
         >
-          Smart Treasury uses Stellar&nbsp;s fast settlement, low fees, wallet
+          Smart Treasury uses Stellar&rsquo;s fast settlement, low fees, wallet
           ecosystem, and Soroban smart contract layer to make treasury
           operations programmable, transparent, and easier to control.
         </SectionIntro>

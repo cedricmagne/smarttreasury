@@ -80,7 +80,7 @@ export const coreFeatures: FeatureTuple[] = [
   [
     History,
     'Audit-friendly operations',
-    'Emit events for signer changes, policy changes, payment validation, scheduled execution, and recovery.'
+    'Record events for signer changes, policy changes, payment validation, scheduled execution, and recovery.'
   ]
 ]
 

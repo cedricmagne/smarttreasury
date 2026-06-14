@@ -15,7 +15,7 @@ export default function UseCases() {
           title="Use cases for real treasury workflows."
         >
           Smart Treasury is designed for teams, protocols, marketplaces, payment
-          operators, and tokenization platforms that need safer, repeatable
+          operators, and tokenization platforms looking to automate recurring
           payment operations.
         </SectionIntro>
         <div className="mt-16 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">

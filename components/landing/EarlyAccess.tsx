@@ -35,8 +35,8 @@ export default function EarlyAccess() {
             Vision
           </p>
           <h2 className="mt-5 font-heading text-4xl font-bold tracking-[-0.03em] sm:text-6xl">
-            Treasury operations should be programmable, transparent, and safer
-            by default.
+            Treasury operations should be programmable, transparent, and safe by
+            design.
           </h2>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
             Smart Treasury brings this model to Stellar through programmable
