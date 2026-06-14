@@ -27,7 +27,7 @@ export default function Hero() {
           Smart Treasury
         </p>
         <h1 className="mt-5 max-w-4xl font-heading text-5xl font-bold tracking-[-0.04em] text-foreground sm:text-7xl lg:text-8xl">
-          Programmable treasury accounts on Stellar
+          Programmable treasury on Stellar
         </h1>
         <p className="mt-7 max-w-2xl text-lg leading-8 text-muted-foreground">
           Smart Treasury helps teams automate payments, approvals, and treasury

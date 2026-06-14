@@ -32,7 +32,9 @@ export default function WorkflowSection() {
                 <p className="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-primary">
                   0{index + 1}
                 </p>
-                <h3 className="mt-6 font-heading text-lg font-bold">{node}</h3>
+                <h3 className="mt-6 flex flex-col items-center justify-center text-center font-heading text-lg font-bold">
+                  {node}
+                </h3>
                 {index < nodes.length - 1 && (
                   <div className="absolute -right-4 top-1/2 hidden h-px w-4 bg-primary lg:block" />
                 )}
